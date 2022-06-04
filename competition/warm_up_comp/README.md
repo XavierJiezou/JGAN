@@ -4,7 +4,7 @@
 
 ```bash
 git clone https://github.com/Jittor/JGAN.git
-cd JGAN
+cd JGAN/
 conda create -n jgan python=3.7
 pip install jittor
 conda activate jgan

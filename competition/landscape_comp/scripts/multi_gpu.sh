@@ -1,1 +1,1 @@
-mpirun -np 4 python pix2pix.py --output_path ./results/multi_gpu --batch_size 128 --data_path path_to_your_data
+CUDA_VISIBLE_DEVICES="7,4,5,6" mpirun -np 4 python pix2pix.py --output_path ./results/multi_gpu --batch_size 128 --n_cpu 16 --data_path ./data
