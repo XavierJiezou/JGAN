@@ -58,13 +58,13 @@ python competition/warm_up_comp/CGAN.py
 
 - 单 GPU
 
-不指定 GPU ID（默认0卡）
+- - 不指定 GPU ID（默认0卡）
 
 ```bash
 python competition/warm_up_comp/CGAN.py 
 ```
 
-指定 GPU ID
+- - 指定 GPU ID
 
 ```
 CUDA_VISIBLE_DEVICES=1 python competition/warm_up_comp/CGAN.py 
