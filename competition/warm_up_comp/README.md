@@ -72,7 +72,15 @@ CUDA_VISIBLE_DEVICES=1 python competition/warm_up_comp/CGAN.py
 
 - [多 GPU](https://cg.cs.tsinghua.edu.cn/jittor/tutorial/2020-5-2-16-44-distributed/)
 
+- - 不指定 GPU ID（按顺序选择）
+
 ```bash
+mpirun -np 4 python competition/warm_up_comp/CGAN.py 
+```
+
+- - 指定 GPU ID
+
+```
 CUDA_VISIBLE_DEVICES="0,1,2,3" mpirun -np 4 python competition/warm_up_comp/CGAN.py 
 ```
 
