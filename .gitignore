@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-*.png
-*.pyc
-*.pkl
-=======
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -132,4 +127,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
->>>>>>> 1768c25998dcc9e2f6630d2264055f6729ff5522
