@@ -78,10 +78,12 @@ CUDA_VISIBLE_DEVICES="0,1,2,3" mpirun -np 4 python competition/warm_up_comp/CGAN
 
 ## 提交结果
 
-打包成 result.zip 压缩文件，其目录结构如下：
+打包成 `result.zip` 压缩文件，其目录结构如下：
 
 ```bash
 result/
 ├── CGAN.py
 └── result.png
 ```
+
+![评测分数](/competition/warm_up_comp/score.png)
