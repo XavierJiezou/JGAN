@@ -1,4 +1,4 @@
-[copyed from [https://github.com/Jittor/JGAN](https://github.com/Jittor/JGAN)]
+[copied from [https://github.com/Jittor/JGAN](https://github.com/Jittor/JGAN)]
 # JGAN
 
 Code based on [Pytorch-GAN](https://github.com/eriklindernoren/PyTorch-GAN)
