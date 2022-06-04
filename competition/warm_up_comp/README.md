@@ -13,7 +13,7 @@ conda activate jgan
 ## 修改代码
 
 ```bash
-vi vi competition/warm_up_comp/CGAN.py
+vi competition/warm_up_comp/CGAN.py
 ```
 
 1. 第69行下插入一行：`nn.Linear(512, 1)`
